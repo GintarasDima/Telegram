@@ -1,0 +1,83 @@
+[
+  {
+    "keyboard_name": "main",
+    "buttons": [
+      {
+        "id": "1",
+        "name": "Горячие блюда",
+        "to_print": "Наши горячие блюда",
+        "next_keyboard": "hot_meals"
+      },
+      {
+        "id": "2",
+        "name": "Десерты",
+        "to_print": "Наши прекрасные десерты",
+        "next_keyboard": "desserts"
+      },
+      {
+        "id": "3",
+        "name": "Напитки",
+        "to_print": "Наши напитки",
+        "next_keyboard": "drinks"
+      }
+    ]
+  },
+  {
+    "keyboard_name": "hot_meals",
+    "buttons": [
+      {
+        "id": "100",
+        "name": "Цепелины",
+        "price": "12",
+        "size": "350",
+        "to_print": "Прекрасная Литовская кухня",
+        "next_keyboard": "hot_meals"
+      },
+      {
+        "id": "101",
+        "name": "Домой",
+        "to_print": "Вы вернулись в главное меню",
+        "next_keyboard": "main"
+      }
+    ]
+  },
+  {
+    "keyboard_name": "desserts",
+    "buttons": [
+      {
+        "id": "200",
+        "name": "Тирамису",
+        "price": "9",
+        "size": "150",
+        "to_print": "Окунитесь в Италию",
+        "next_keyboard": "desserts"
+      },
+      {
+        "id": "201",
+        "name": "Домой",
+        "to_print": "Вы вернулись в главное меню",
+        "next_keyboard": "main"
+      }
+    ]
+  },
+  {
+    "keyboard_name": "drinks",
+    "buttons": [
+      {
+        "id": "300",
+        "name": "Махито",
+        "price": "10",
+        "size": "150",
+        "to_print": "Райское наслаждение",
+        "next_keyboard": "drinks"
+      },
+      {
+        "id": "301",
+        "name": "Домой",
+        "to_print": "Вы вернулись в главное меню",
+        "next_keyboard": "main"
+      }
+    ]
+  }
+]
+
